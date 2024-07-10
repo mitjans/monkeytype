@@ -337,12 +337,6 @@
   }
 
   &.highlight-word {
-    .word.typed {
-      letter {
-        color: var(--untyped-letter-color);
-        animation: var(--untyped-letter-animation);
-      }
-    }
     .word.active {
       letter {
         color: var(--correct-letter-color);
@@ -359,12 +353,6 @@
   }
 
   &.highlight-next-word {
-    .word.typed {
-      letter {
-        color: var(--untyped-letter-color);
-        animation: var(--untyped-letter-animation);
-      }
-    }
     .word.active,
     .word.active + .word {
       letter {
@@ -382,12 +370,6 @@
   }
 
   &.highlight-next-two-words {
-    .word.typed {
-      letter {
-        color: var(--untyped-letter-color);
-        animation: var(--untyped-letter-animation);
-      }
-    }
     .word.active,
     .word.active + .word,
     .word.active + .word + .word {
@@ -406,12 +388,6 @@
   }
 
   &.highlight-next-three-words {
-    .word.typed {
-      letter {
-        color: var(--untyped-letter-color);
-        animation: var(--untyped-letter-animation);
-      }
-    }
     .word.active,
     .word.active + .word,
     .word.active + .word + .word,
